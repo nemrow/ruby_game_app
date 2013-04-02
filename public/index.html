@@ -1,3 +1,64 @@
-<head>
-<script type="text/javascript" src="game_script.js"></script>
-</head>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap 101 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .array_input_line input{
+        width: 50px;
+        float: left;
+      }
+      .array_input_line p{
+        font-size: 30px;
+        font-weight: bold;
+        float: left;
+        margin:0 5px 0 5px;
+        position: relative;
+        top: -2px;
+      }
+      .num_of_elements{
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="#">Ruby Game</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit">
+        <h3 class="array_placer"></h3>
+        <h2 class="problem_placer"></h2>
+        <p class="answer_placer"></p>
+        <div class="array_input_line">
+          <p>[</p>
+          <div class="array_input_text_boxes">
+            <input class="array_input array_input_1" type="text">
+          </div>
+          <p>]</p>
+        </div>
+        <p class="num_of_elements">1</p>
+      </div>
+
+    </div> <!-- /container -->
+
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="game_script.js"></script>
+  </body>
+</html>
